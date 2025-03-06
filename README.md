@@ -1,12 +1,88 @@
-# React + Vite
+# 📌 Lists and Conditional Rendering in React
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 📚 Topics Covered
+- Rendering lists with `.map()`
+- Keys in React lists
+- Conditional rendering techniques
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 📝 Project: To-Do List App
 
-## Expanding the ESLint configuration
+### 🎯 Objective
+Learn how to dynamically render and manage a list of items with conditional rendering.
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### ✅ Tasks
+1. **Create a State Variable**
+   - Store a list of tasks in a state variable.
+   
+2. **Render Task List Using `.map()`**
+   - Use the `.map()` function to display tasks dynamically.
+
+3. **Add & Remove Functionality**
+   - Implement functions to add new tasks and remove existing ones.
+
+4. **Conditional Rendering**
+   - Display a message when the task list is empty.
+
+---
+
+# 📌 Forms and Controlled Components in React
+
+## 📚 Topics Covered
+- Handling user input in forms
+- Controlled components
+- Basic form validation
+
+---
+
+## 📝 Project: Feedback Form
+
+### 🎯 Objective
+Understand how to handle and validate user input in a React form.
+
+### ✅ Tasks
+1. **Create a Form**
+   - Include input fields for `name`, `email`, and `feedback message`.
+
+2. **Use State Variables**
+   - Control form inputs using state variables.
+
+3. **Form Validation**
+   - Ensure fields are not empty before submission.
+
+4. **Display Submitted Feedback**
+   - Show the submitted feedback data below the form.
+
+---
+
+## 🚀 How to Run the Project
+
+1. **Set Up React Project using Vite**
+   ```bash
+   npm create vite@latest my-react-app --template react
+   cd my-react-app
+   npm install
+   npm run dev
+   ```
+
+2. **Create Components**
+   - Implement the `ToDoList` and `FeedbackForm` components.
+
+3. **Run & Test**
+   - Ensure list rendering, form validation, and user interactions work as expected.
+
+---
+
+## 🎨 Customization
+- Modify CSS styles for a better UI.
+- Extend functionality, such as adding task due dates or additional validation rules.
+
+---
+
+## 📜 License
+This project is open-source and available under the MIT License.
+
+## 📜 Output
+![alt text](image.png)
+![alt text](<Screenshot 2025-03-06 160239.png>)
